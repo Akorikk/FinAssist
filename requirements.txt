@@ -1,0 +1,61 @@
+
+# ==========================================
+# FinAssist AI
+# Python 3.11
+# Agentic AI + RAG + Guardrails
+# ==========================================
+
+# LLM provider
+langchain
+langchain-groq
+
+# Agent orchestration
+langgraph
+langchain-community
+langchain-text-splitters
+
+# RAG and embeddings
+chromadb
+fastembed
+
+# AI guardrails
+nemoguardrails
+
+# API and validation
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+
+# Configuration
+python-dotenv
+
+# Document processing
+pypdf
+python-docx
+
+# Database: PostgreSQL
+sqlalchemy
+psycopg[binary]
+
+# HTTP and reliability
+httpx
+tenacity
+structlog
+
+# Evaluation and testing
+deepeval
+pytest
+pytest-asyncio
+pytest-cov
+
+# Tracing and observability
+langsmith
+
+# Code quality
+ruff
+
+# Security checks
+bandit
+pip-audit
